@@ -18,28 +18,28 @@ function App() {
   // Personal information - UPDATE THIS WITH YOUR DETAILS
   const personalInfo = {
     name: "Shivam Patwa",
-    title: "IT Student & Frontend Developer",
-    email: "shivam.patwa@example.com",
-    phone: "+91 98765 43210",
+    title: "IT Student & Fullstack Developer",
+    email: "shivam.patwa5062736@ves.ac.in",
+    phone: "+91 9594535360",
     location: "Mumbai, India",
     birthDate: "15 March 2004",
     college: "Vivekanand Education Society's Institute of Technology",
     collegeYear: "2022-2026",
     collegeCgpa: "8.7 CGPA",
-    jrCollege: "Ramniranjan Jhunjhunwala College",
+    jrCollege: "Swami Vivekanand Vidyalaya",
     jrCollegeYear: "2020-2022",
     jrCollegePercentage: "85%",
     school: "St. Xavier's High School",
     schoolYear: "2010-2020",
     schoolPercentage: "92%",
     // Update these with your actual image paths
-    profileImage: "/images/profile.jpg",
+    profileImage: "/images/profile.jpeg",
     resumeLink: "/resume.pdf",
     socialMedia: {
       github: { url: "https://github.com/shivampatwa190", icon: "🐙", name: "GitHub" },
       linkedin: { url: "https://linkedin.com/in/shivampatwa", icon: "🔗", name: "LinkedIn" },
       twitter: { url: "https://twitter.com/shivampatwa", icon: "🐦", name: "Twitter" },
-      instagram: { url: "https://instagram.com/shivampatwa", icon: "📷", name: "Instagram" },
+      instagram: { url: "https://instagram.com/kabir_v5", icon: "📷", name: "Instagram" },
       facebook: { url: "https://facebook.com/shivampatwa", icon: "📘", name: "Facebook" },
       leetcode: { url: "https://leetcode.com/shivampatwa", icon: "⚡", name: "LeetCode" },
       hackerrank: { url: "https://hackerrank.com/shivampatwa", icon: "💻", name: "HackerRank" },
@@ -57,7 +57,7 @@ function App() {
       technologies: ["React", "Three.js", "Framer Motion", "CSS3"],
       github: "https://github.com/shivampatwa/3d-portfolio",
       live: "https://shivam-portfolio-3d.vercel.app",
-      image: "/images/portfolio.jpg",
+      image: "/images/portfolio.webp",
       date: "Jan 2026",
       features: [
         "3D animated background",
@@ -428,7 +428,7 @@ function App() {
                 <span className="timeline-badge">Current</span>
               </div>
               <p className="timeline-date">{personalInfo.collegeYear}</p>
-              <p className="timeline-desc">B.E. in Information Technology</p>
+              <p className="timeline-desc">BSC in Information Technology</p>
               <div className="timeline-details">
                 <span className="timeline-grade">CGPA: {personalInfo.collegeCgpa}</span>
               </div>
